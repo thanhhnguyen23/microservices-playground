@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.config.server.EnableConfigServer;
 
 @SpringBootApplication
+// wires Spring modules to expose the Spring Boot application as a configuration server
 @EnableConfigServer
 public class ConfigServerApp {
 
